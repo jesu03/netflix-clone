@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
+.Topcontent__content{
+   margin-left: 50px;
+    width: 300px;
+    padding-top: 70px;
+}
+.Topcontent__content > h1{
+    font-family: 'Amatic SC', cursive;
+    font-weight: 2000;
+    font-size: 100px;
+    color: white;
+    letter-spacing: 1px;
+    
+}
+.Topcontent__content > h2{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.Topcontent__content > p{
+    color: white;
+    margin-bottom: 10px;
+}
+.Topcontent__content > p > span{
+    color: red;
+    font-size: 18px;
+}
+.Topcontent__content > h2 > span{
+    letter-spacing: 2px;
+    font-weight: 2000;
+    font-size: xx-large;
+    font-family: 'Cormorant SC', serif;
+    color:rgb(255, 31, 31);
+}
+.Topcontent__content__logo{
+    color: white;
+    display: flex;
+}
+.Topcontent__content__logo > img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    padding-top: 4px;
+}
+.Topcontent__content__logo > p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.Topcontent__content__butt1{
+   color: white;
+   background: red;
+   font-size: 14px;
+   padding: 10px 30px;
+   font-weight: 300;
+   cursor: pointer;
+   margin-right: 20px;
+   transition: transform 400ms ease-in-out;
+}
+.Topcontent__content__butt1:hover{
+    transform: scale(1.03);
+    box-shadow: inset 150px 0 0 0 #54b3d6;
+    
+    color: white;
+}
+
+.Topcontent__content__butt2{
+    color: white;
+    background: red;
+   font-size: 14px;
+   padding: 10px 30px;
+   font-weight: 300;
+   cursor: pointer;
+   margin-right: 20px;
+   transition: transform 400ms ease-in-out;
+}
+.Topcontent__content__butt2:hover{
+    transform: scale(1.03);
+    box-shadow: inset 150px 0 0 0 #54b3d6;
+    color: white;
+}
+
+.Topcontent__content > button{
+    text-align: left;
+    margin-left: 0px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
+.Header{
+    display: flex;
+    background-color: rgb(24, 19, 19);
+    top: 0;
+    position: sticky;
+    z-index: 200;
+}
+.Header__left{
+    display: flex;
+    flex: 0.9;
+    margin-top: 8px;
+    margin-bottom: 7px;
+}
+.Header__left > p{
+    padding-right: 20px;
+    font-size: large;
+    margin-top: 8px;
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.Header__right > p:hover{
+  transform: scale(1.03);
+  color: red;
+}
+.Header__left > h2{
+    padding-right: 30px;
+    color: red;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    font-weight: 2000;
+    font-size: xx-large;
+    font-family: 'Cormorant SC', serif;
+}
+
+.Header__right{
+    display: flex;
+    flex: 0.1;
+    margin-top: 8px;
+}
+.Header__right > p{
+    padding-right: 25px;
+    font-size: large;
+    margin-top: 8px;
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.Header__left > p:hover{
+    transform: scale(1.03);
+    color: red;
+}
+.Header__right__icon{
+    margin-top: 8px;
+    margin-right: 3px;
+    border-radius: 5px;
+    height: 19px;
+    width: 20px;
+    display:flex;
+    margin-right: 5px;
+}
