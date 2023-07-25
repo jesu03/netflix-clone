@@ -6,7 +6,8 @@ const Header = () => {
   return (
     <div className="Header">
     <div className="Header__left">
-    <h2>NE<span>TF</span>LIX</h2>
+    {/* <h2>NE<span>TF</span>LIX</h2> */}
+    <img src='https://about.netflix.com/images/logo.png' alt="netlogo"/>
     <p>Home</p>
     <p>Tv Shows</p>
     <p>Movies</p>

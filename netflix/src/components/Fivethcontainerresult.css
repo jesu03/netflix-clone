@@ -1,0 +1,21 @@
+.projectresult > img{
+    width: 240px;
+    height: 140px;
+    box-shadow: inset 150px 0 0 0 #54b3d6;
+}
+.projectresult{
+    margin: 18px;
+    width: 222px;
+    height: 140px;
+    transition: transform 100ms ease-in;
+}
+
+.projectresult:hover{
+    color: wheat;
+    /* background-color: #f64c08; */
+    transform: scale(1.02);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

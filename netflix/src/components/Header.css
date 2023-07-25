@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
 .Header{
     display: flex;
@@ -11,16 +11,23 @@
     display: flex;
     flex: 0.9;
     margin-top: 8px;
-    margin-bottom: 7px;
+    margin-bottom: 4px;
+}
+.Header__left > img{
+    width: 120px;
+    height: 50px;
+    margin-right: 8px;
+    margin-left: 10px;
 }
 .Header__left > p{
     padding-right: 20px;
     font-size: large;
-    margin-top: 8px;
+    margin-top: 11px;
     color: white;
     transition: all 0.3s ease;
     cursor: pointer;
-    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 8px;
+    
 }
 .Header__right > p:hover{
   transform: scale(1.03);
@@ -44,18 +51,18 @@
 .Header__right > p{
     padding-right: 25px;
     font-size: large;
-    margin-top: 8px;
+    margin-top: 11px;
     color: white;
     transition: all 0.3s ease;
     cursor: pointer;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 .Header__left > p:hover{
     transform: scale(1.03);
     color: red;
 }
 .Header__right__icon{
-    margin-top: 8px;
+    margin-top: 11px;
     margin-right: 3px;
     border-radius: 5px;
     height: 19px;
