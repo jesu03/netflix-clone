@@ -5,7 +5,7 @@ const Topcontent = () => {
   return (
     <div className='Topcontent'>
     <div className='Topcontent__content'>
-    <h2>A <span>NETFLIX</span> SERIES </h2>
+    <h2>A <img src="https://about.netflix.com/images/logo.png" alt="log"/> SERIES </h2>
     <h1>WEDNESDAY</h1>
     <StarHalfRoundedIcon style={{ fill: 'red' }} />
     <StarHalfRoundedIcon style={{ fill: 'red' }}/>
@@ -17,7 +17,7 @@ const Topcontent = () => {
         <p>#1 TV Shows In Today</p>
     </div>
     <p><span>Wednesday</span> is an American streaming television series based on the character Wednesday Addams by Charles Addams.</p>
-    <button className='Topcontent__content__butt1'>Play</button>
+    <button className='Topcontent__content__butt1'>► Play</button>
     <button className='Topcontent__content__butt2'>More Info</button>
     </div>
     </div>

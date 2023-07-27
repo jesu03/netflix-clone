@@ -63,10 +63,35 @@
 }
 .Header__right__icon{
     margin-top: 11px;
-    margin-right: 3px;
+    /* margin-right: 3px; */
     border-radius: 5px;
     height: 19px;
     width: 20px;
     display:flex;
     margin-right: 5px;
+}
+
+.signout__button{
+    color: white;
+    background: red;
+   font-size: 14px;
+   font-weight: 200;
+   cursor: pointer;
+   transition: transform 400ms ease-in-out;
+   border-radius: 2px;
+}
+.signout__button:hover{
+    transform: scale(1.03);
+}
+
+.Header__right> button{
+    text-align: left;
+    margin-left: 0px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 12px;
+    padding-bottom: 2px;
 }

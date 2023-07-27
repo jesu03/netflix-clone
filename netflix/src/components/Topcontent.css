@@ -20,6 +20,10 @@
     font-size: 30px;
     letter-spacing: 1px;
 }
+.Topcontent__content > h2 > img{
+    width: 50px;
+    height: 30px;
+}
 .Topcontent__content > p{
     color: white;
     margin-bottom: 10px;

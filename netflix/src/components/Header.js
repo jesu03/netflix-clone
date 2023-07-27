@@ -2,7 +2,12 @@ import React from 'react'
 import './Header.css'
 import SearchIcon from '@material-ui/icons/Search';
 //import NotificationsIcon from '@material-ui/icons/Notifications';
+import {useNavigate} from 'react-router-dom';
 const Header = () => {
+  const nav =  useNavigate();
+  const handleClick = () =>{
+    nav("/");
+  }
   return (
     <div className="Header">
     <div className="Header__left">
@@ -20,7 +25,7 @@ const Header = () => {
     <SearchIcon style={{ fill: 'white' }}/>
     {/* <NotificationsIcon style={{ fill: 'white' }}/> */}
     </div>
-    
+    <button className='signout__button' onClick={handleClick}>N</button>
     </div>
     </div>
   )
