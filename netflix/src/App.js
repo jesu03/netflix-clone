@@ -6,6 +6,7 @@ import Thirdcontainer from './components/Thirdcontainer'
 import Topcontainer from './components/Topcontainer';
 import Fourthcontainer from './components/Fourthcontainer'
 import Fivethcontainer from './components/Fivethcontainer'
+import Sixthcontainer from './components/Sixthcontainer'
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
     <Thirdcontainer/>
     <Fourthcontainer/>
     <Fivethcontainer/>
+    <Sixthcontainer/>
     </div>
   );
 }

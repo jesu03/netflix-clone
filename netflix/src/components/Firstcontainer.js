@@ -14,9 +14,9 @@ const Firstcontainer = () => {
         desc : "In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits"
     },
     {
-        img : "https://images7.alphacoders.com/617/thumbbig-617964.webp",
-        title : "Breaking Bad",
-        desc : "Walter White, a chemistry teacher, discovers that he has cancer and decides to get into the meth-making business to repay his medical debts"
+        img : "https://occ-0-2590-2164.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZemmrMaRP3BbvSmgKLTfo1M3yb8VgbYQQUgc3pn-Zgr4WoPJRLV4zr4Kyq6nXqGcaFbPaRcamPUw6isYOw-pDhDcnhh4crH5qlVp-eVbnQHxEGpfaH60OKmweG7cYjLz9am.jpg?r=853",
+        title : "Squid Game",
+        desc : "Hundreds of cash-strapped contestants accept an invitation to compete in children's games for a tempting prize, but the stakes are deadly."
     },
     {
         img : "https://occ-0-2086-2186.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABRXabvZzn6TLqPxrKQycbwVeKqSTL4YB5S-gXUZ2hLQ4KeyhMWLs_o8yuvxDxGlbq1LUiT5dYwyPP_Zk2_a4eOxdJ5cAnxoqgz-d-tbckSK6nZr97o0rI_67bdxXaWnLI0h0.jpg?r=5c6",

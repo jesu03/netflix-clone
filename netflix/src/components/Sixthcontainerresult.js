@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import './Thirdcontainerresult.css'
-const Thirdcontainerresult = ({img,title,desc}) => {
+import './Sixthcontainerresult.css'
+const Sixthcontainerresult = ({img,title,desc}) => {
     const[show,setShow] = useState(false);
   return (
     <div className='projectresult' onMouseEnter={()=>setShow(true)} onMouseLeave={()=>setShow(false)}>
@@ -19,4 +19,4 @@ const Thirdcontainerresult = ({img,title,desc}) => {
   )
 }
 
-export default Thirdcontainerresult
+export default Sixthcontainerresult
