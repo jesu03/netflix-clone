@@ -11,7 +11,7 @@
 }
 
 .projectresult:hover{
-    color: wheat;
+    color: rgb(236, 229, 216);
     /* background-color: #f64c08; */
     transform: scale(1.02);
     display: flex;
